@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <script>
+        const names = ["Fred", "Barney", "Wilma", "Betty"];
+        const ages = [35,34,29,30]
+        let lenName = names.length;
+
+        let text= "<ul>";
+            for (let i=0; i< lenName; i++)
+            {
+                text += "<li>" + names[i] + "</li>";
+            }
+            text +="</ul>";
+            document.getElementByID("demo").innerHTML = text;
+    </script>
+</head>
+<body>
+    <p id = "demo"></p>
+</body>
+</html>
