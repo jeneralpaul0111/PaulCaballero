@@ -1,16 +1,20 @@
+.HTMLBody {
+  margin-bottom: 40px;
+}
+
 .container {
   display: flex;
 }
 
 .sidebar {
   flex: 0 0 100px;
-  padding: 5px;
+  margin: 10px;
   height: 100%;
 }
 
 .body {
   flex: 1;
-  padding: 20px;
+  padding-top: 10px;
   height: 100%;
 }
 
@@ -21,5 +25,5 @@ h3 {
 }
 
 ul {
-  padding-inline-start: 0px;
+  padding-inline-start: 20px;
 }

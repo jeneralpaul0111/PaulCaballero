@@ -1,7 +1,6 @@
 body,
 html {
   background-color: rgb(245, 245, 245);
-  height: 75%;
 }
 
 p,
@@ -9,4 +8,5 @@ button,
 a {
   font-size: 13px;
   font-family: Verdana, sans-serif;
+  margin: 0px;
 }
