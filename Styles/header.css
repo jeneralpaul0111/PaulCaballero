@@ -12,10 +12,43 @@
   text-decoration: none;
 }
 
-.divPic {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.top-bar {
+  position: fixed;
+  background-color: rgb(245, 245, 245);
+  color: white;
+  height: 260px;
+  width: 100%;
+}
+.top-bar h1 {
+  margin: 0;
+}
+.top-bar nav {
+  float: right;
+}
+.top-bar nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.top-bar nav li {
+  display: inline-block;
+  margin-left: 10px;
+}
+.top-bar nav li:first-child {
+  margin-left: 0;
+}
+.top-bar nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.divPic img {
+  position: fixed;
+  display: block;
+  z-index: 1;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .MyPicture {
@@ -27,8 +60,26 @@
   border-radius: 50%;
 }
 
+.logo {
+  position: fixed;
+  display: block;
+  width: 100%;
+  top: 210px;
+}
+
+.contact {
+  position: fixed;
+  display: block;
+  width: 100%;
+  top: 240px;
+}
+
 .Navigation {
+  position: fixed;
   display: flex;
+  width: 100%;
+  top: 260px;
+  z-index: 1;
   flex-direction: row;
   align-items: center;
   background-color: rgb(206, 202, 202);
@@ -48,6 +99,7 @@
   font-weight: 500;
   cursor: pointer;
   border-radius: 5px;
+  margin-right: 10px;
 }
 .subscribe:hover {
   opacity: 0.7;
