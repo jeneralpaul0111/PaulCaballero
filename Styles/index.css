@@ -11,3 +11,7 @@ a {
   font-family: Verdana, sans-serif;
   margin: 0px;
 }
+
+header p {
+  text-align: left;
+}

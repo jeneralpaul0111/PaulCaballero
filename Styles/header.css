@@ -46,7 +46,7 @@
   position: fixed;
   display: block;
   z-index: 1;
-  top: 12%;
+  top: 110px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
