@@ -1,5 +1,5 @@
 .HTMLBody {
-  margin-top: 260px;
+  margin-top: 270px;
   margin-bottom: 40px;
 }
 
@@ -11,9 +11,11 @@
   flex: 0 0 100px;
   margin: 10px;
   height: 100%;
+  align-self: flex-start;
 }
 
 .body {
+  align-self: flex-start;
   flex: 1;
   padding-top: 10px;
   height: 100%;
