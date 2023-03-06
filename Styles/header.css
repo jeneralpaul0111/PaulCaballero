@@ -85,6 +85,20 @@
   background-color: rgb(206, 202, 202);
 }
 
+.Navigation ul {
+  padding: 0.5em;
+  margin-bottom: 0%;
+}
+
+.Navigation a {
+  text-decoration: none;
+}
+
+.Navigation nav a:hover {
+  text-decoration: underline;
+  color: #f00;
+}
+
 .div2 {
   flex: 1;
   display: flex;
