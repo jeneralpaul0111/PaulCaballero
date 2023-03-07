@@ -1,17 +1,32 @@
+.rounded-medium {
+  border-radius: 200px;
+  border: solid;
+  border-color: rgb(182, 182, 182);
+}
+
+.card-title {
+  border-top: 1px solid rgb(209, 209, 209);
+}
+
 body,
 html {
   background-color: rgb(245, 245, 245);
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-p,
-button,
-a {
-  font-size: 13px;
-  font-family: Verdana, sans-serif;
-  margin: 0px;
+.indexBody {
+  margin: 20px;
 }
 
-header p {
-  text-align: left;
+.container {
+  display: flex;
+  margin: 0%;
+}
+
+.sidebar {
+  flex: 0 0 150px;
+  margin: 10px;
+  height: 100%;
+  align-self: flex-start;
 }
