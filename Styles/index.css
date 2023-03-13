@@ -11,6 +11,11 @@
   color: blue;
 }
 
+.small-img {
+  width: 20px;
+  height: 20px;
+}
+
 .rounded-medium {
   border-radius: 200px;
   border: solid;
