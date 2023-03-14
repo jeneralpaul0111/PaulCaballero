@@ -11,9 +11,19 @@
   color: blue;
 }
 
+.picture1 {
+  position: fixed;
+  top: 60px;
+}
+
 .small-img {
   width: 20px;
   height: 20px;
+}
+
+.medium-img {
+  width: 200px;
+  height: 200px;
 }
 
 .rounded-medium {
@@ -26,6 +36,13 @@ body,
 html {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.experienceBodyMB {
+  margin-top: 320px;
+}
+.experienceBody {
+  margin-top: 270px;
 }
 
 .indexBody {
