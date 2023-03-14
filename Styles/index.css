@@ -14,6 +14,7 @@
 .picture1 {
   position: fixed;
   top: 60px;
+  background-color: white;
 }
 
 .small-img {
@@ -52,11 +53,12 @@ html {
 .container {
   display: flex;
   margin: 0%;
+  border: solid 1px black;
 }
 
 .sidebar {
   flex: 0 0 150px;
-  margin: 10px;
+  margin: 0px;
   height: 100%;
   align-self: flex-start;
 }
