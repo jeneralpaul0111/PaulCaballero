@@ -17,6 +17,14 @@
   background-color: white;
 }
 
+.img-fixed {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
 .card {
   background: rgba(255, 255, 255, 0.5);
   background-color: rgba(255, 255, 255, 0.5);
