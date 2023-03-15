@@ -41,62 +41,62 @@
               <a class="nav-link" href="skills.html">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aboutMe.html">AboutMe</a>
-            </li>
-            <li class="nav-item">
               <a
                 class="nav-link selected"
                 aria-current="page"
-                href="ContactMe.html"
-                >ContactMe</a
+                href="contact.html"
+                >Contact</a
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!--Picture-->
-    <div class="container-fluid">
-      <div class="card">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-12 text-center">
-              <img
-                src="Images/PaulCaballero.png"
-                class="img-fluid rounded-medium"
-                style="width: 150px"
-                alt="..."
-              />
-            </div>
-          </div>
-          <div class="row mt-3">
-            <div class="col-12 text-bg-secondary">
-              <h5 class="card-title">Paul Caballero</h5>
-              <p class="card-text">
-                (+63)995-635-8480 | jeneralpaul0111@gmail.com | Mariveles,
-                Bataan, PH
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="conatainer">
+    <!--Contact-->
+    <div class="conatainer mx-2 my-5">
       <div class="text-center">
         <h2>Get in touch</h2>
         <p class="lead">Questions? Do not hesitate to contact me.</p>
       </div>
-      <div class="row justify-content-center my-5">
+      <div class="row justify-content-center my-2">
         <div class="col-lg-6">
           <form action="">
-            <label for="email" class="form-label">Email:</label>
-            <input
-              type="email"
-              id="email"
-              placeholder="my@mail.com"
-              class="form-control"
-            />
+            <div class="form-floating my-2">
+              <input
+                type="email"
+                id="email"
+                placeholder="my@email.com"
+                class="form-control"
+              />
+              <label for="email" class="form-label">Email:</label>
+            </div>
+            <div class="form-floating my-2">
+              <input
+                type="name"
+                id="name"
+                placeholder="e.g. Juan Dela Cruz"
+                class="form-control"
+              /><label for="name" class="form-label">Name:</label>
+            </div>
+            <label for="subject" class="form-label">Subject:</label>
+            <select name="subject" id="subject" class="form-select">
+              <option value="pricing">Pricing</option>
+              <option value="technical">Technical question</option>
+              <option value="other">Other</option>
+            </select>
+            <div class="form-floating my-2">
+              <textarea
+                name="query"
+                id="query"
+                style="height: 150px"
+                class="form-control"
+                placeholder="Write something"
+              ></textarea>
+              <label for="query">Write a message</label>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
           </form>
         </div>
       </div>
@@ -128,14 +128,11 @@
               <a class="nav-link" href="skills.html">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aboutMe.html">AboutMe</a>
-            </li>
-            <li class="nav-item">
               <a
                 class="nav-link selected"
                 aria-current="page"
-                href="ContactMe.html"
-                >ContactMe</a
+                href="contact.html"
+                >Contact</a
               >
             </li>
           </ul>
