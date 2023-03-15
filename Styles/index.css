@@ -13,21 +13,8 @@
 
 .picture1 {
   position: fixed;
-  top: 70px;
+  top: 80px;
   background-color: white;
-}
-
-.img-fixed {
-  position: fixed;
-  top: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-}
-
-.card {
-  background: rgba(255, 255, 255, 0.5);
-  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .small-img {
@@ -38,6 +25,10 @@
 .medium-img {
   width: 200px;
   height: 200px;
+}
+
+.eighty {
+  height: 80vh;
 }
 
 .rounded-medium {
